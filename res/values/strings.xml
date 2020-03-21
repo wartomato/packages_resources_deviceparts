@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014-2017 The OmniROM Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+  <string name="app_name">DeviceParts</string>
+  <string name="device_title">Additional device settings</string>
+  <string name="device_summary">Adjust manufacturer-specific device settings</string>
+  <string name="advanced_settings">Advanced</string>
+
+  <!-- <string name="wake_entry">Wakeup</string>
+  <string name="single_tap_title">Single tap</string>
+  <string name="single_tap_summary">Wake the display on single tap</string> -->
+
+  <!-- Audio/Sound enhancer -->
+  <string name="category_audio">Audio</string>
+  <string name="sound_title">Sound Enhancement</string>
+  <string name="sound_summary">Configure the audio output based on media content.</string>
+  <string name="enable_sound_title">Enable/Disable the Sound Tuner</string>
+  <string name="enable_sound_summary">Switching REQUIRES a reboot to take effect!</string>
+  <string name="enable_sound_info">Note: With the Sound Tuner enabled, other EQ effects like MusicFX should be disabled.</string>
+
+  <!-- Gesture options -->
+  <string name="category_gestures_title">Device gestures</string>
+  <string name="category_gestures_summary">Configure gesture actions</string>
+  <string name="offscreen_gesture_title">Offscreen gestures</string>
+  <!-- <string name="proxi_summary_head_new">Check proximity sensor for handling gestures</string> -->
+  <!-- <string name="proxi_title_head">Proximity check</string> -->
+  <string name="off_screen_gesture_feedback_title_head">Haptic feedback</string>
+  <string name="off_screen_gesture_feedback_summary_head">Enable haptic feedback for gestures</string>
+  <string name="category_double_swipe_gesture">II gesture</string>
+  <!-- <string name="category_up_arrow_gesture">A gesture</string> -->
+  <string name="category_down_arrow_gesture">V gesture</string>
+  <string name="category_left_arrow_gesture">&lt; gesture</string>
+  <string name="category_right_arrow_gesture">&gt; gesture</string>
+  <string name="category_circle_gesture">O gesture</string>
+  <string name="category_m_gesture">M gesture</string>
+  <string name="category_s_gesture">S gesture</string>
+  <string name="category_w_gesture">W gesture</string>
+  <string name="disabled_entry">Disabled</string>
+  <string name="camera_entry">Camera</string>
+  <string name="torch_entry">Flashlight</string>
+  <string name="music_play_entry">Play/Pause music</string>
+  <string name="music_prev_entry">Prev track</string>
+  <string name="music_next_entry">Next track</string>
+  <string name="choose_app">Choose app</string>
+  <string name="not_ready_summary">Resolving...</string>
+  <string name="resolve_failed_summary">Resolving app failed</string>
+
+  <!-- Vibrator options -->
+  <!-- removed "_head" to make it compatible with res/devicesettings for now! -->
+  <string name="category_vibrator">Vibrator</string>
+  <string name="vib_test">Test</string>
+  <string name="vib_strength_info">Note:\n\nPlease enable Vibration first in Settings -> Accessibility -> Vibration completely to get a haptic feedback on changing the strength.</string>
+  <string name="vib_strength_title">Systemwide Vibratorstrength</string>
+  <string name="vib_strength_summary">Define the generic strength of the vibrator</string>
+  <string name="vib_call_strength_title">Call Vibratorstrength</string>
+  <string name="vib_call_strength_summary">Define the strength for in-call events only</string>
+  <string name="vib_notif_strength_title">Notification Vibratorstrength</string>
+  <string name="vib_notif_strength_summary">Define the strength of the vibrator for notifications only</string>
+
+  <!-- Alert Slider options -->
+  <string name="category_slider">Alert Slider</string>
+  <string name="slider_mode_title">Slider mode</string>
+  <string name="slider_mode_title_top">Top position</string>
+  <string name="slider_mode_title_center">Center position</string>
+  <string name="slider_mode_title_bottom">Bottom position</string>
+  <string name="slider_mode_alarm">Alarms only</string>
+  <string name="slider_mode_flashlight">Flashlight</string>
+  <string name="slider_mode_off">Off</string>
+  <string name="slider_mode_priority">Priority only</string>
+  <string name="slider_mode_silent">Silent</string>
+  <string name="slider_mode_vibrate">Vibrate</string>
+  <string name="slider_mode_zen">Do not disturb</string>
+
+  <!-- Display/Graphics options -->
+  <string name="graphics_title">Graphics</string>
+  <string name="dcd_mode_title">DC Dimming</string>
+  <string name="dcd_mode_summary">Reduce screen flickering in low brightness surroundings</string>
+  <string name="hbm_mode_title">High brightness mode</string>
+  <string name="hbm_mode_summary">Enable maximum display brightness for bright surroundings</string>
+
+  <!-- Display panel options -->
+  <string name="panel_category_title">Display Panel modes</string>
+  <string name="panel_category_summary">Modes for panel color correction</string>
+  <string name="panel_mode_info">Disable panel mode requires reboot.</string>
+  <string name="off_mode_title">Off</string>
+  <string name="Night_mode_title">Night mode</string>
+  <string name="Night_mode_summary"></string>
+  <string name="srgb_mode_title">sRGB mode</string>
+  <string name="srgb_mode_summary"></string>
+  <string name="dci_mode_title">DCI-P3 mode</string>
+  <string name="dci_mode_summary"></string>
+  <string name="Wide_mode_title">AMOLED Wide Colour Gamut</string>
+  <string name="Wide_mode_summary"></string>
+  <string name="oneplus_mode_title">OnePlus mode</string>
+  <string name="oneplus_mode_summary"></string>
+
+  <!-- Screen refresh rate options -->
+  <string name="refresh_title">Screen refresh</string>
+  <string name="refresh_rate_title">Force maximum refresh rate</string>
+  <string name="refresh_rate_summary">Choose between different peak refresh rates</string>
+  <string name="refresh_rate_warning">Using forced maximum refresh rate will impact battery life significantly</string>
+  <string name="auto_refresh_rate_title">Auto refresh mode</string>
+  <string name="auto_refresh_rate_summary">Let apps decide what refresh rate to use</string>
+
+  <!-- QS Tiles -->
+  <string name="tile_hbm_mode">High brightness mode</string>
+  <string name="tile_panel_mode">Display Panel modes</string>
+  <string name="tile_refresh_rate">Screen refresh rate</string>
+</resources>
