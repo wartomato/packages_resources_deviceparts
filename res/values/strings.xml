@@ -82,7 +82,7 @@
   <string name="slider_mode_title_bottom">Bottom position</string>
   <string name="slider_mode_alarm">Alarms only</string>
   <string name="slider_mode_flashlight">Flashlight on/off</string>
-  <string name="slider_mode_off">Normal</string>
+  <string name="slider_mode_off">Ringer</string>
   <string name="slider_mode_priority">Priority only</string>
   <string name="slider_mode_silent">Silent</string>
   <string name="slider_mode_vibrate">Vibrate</string>
