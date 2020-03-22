@@ -19,9 +19,9 @@
   <string name="device_summary">Adjust manufacturer-specific device settings</string>
   <string name="advanced_settings">Advanced</string>
 
-  <!-- <string name="wake_entry">Wakeup</string>
+  <string name="wake_entry">Wakeup</string>
   <string name="single_tap_title">Single tap</string>
-  <string name="single_tap_summary">Wake the display on single tap</string> -->
+  <string name="single_tap_summary">Wake the display on single tap in AOD mode</string>
 
   <!-- Audio/Sound enhancer -->
   <string name="category_audio">Audio</string>
@@ -32,6 +32,7 @@
   <string name="enable_sound_info">Note: With the Sound Tuner enabled, other EQ effects like MusicFX should be disabled.</string>
 
   <!-- Gesture options -->
+  <string name="screen_gestures_panel_title">Gestures</string>
   <string name="category_gestures_title">Device gestures</string>
   <string name="category_gestures_summary">Configure gesture actions</string>
   <string name="offscreen_gesture_title">Offscreen gestures</string>
@@ -39,12 +40,16 @@
   <!-- <string name="proxi_title_head">Proximity check</string> -->
   <string name="off_screen_gesture_feedback_title_head">Haptic feedback</string>
   <string name="off_screen_gesture_feedback_summary_head">Enable haptic feedback for gestures</string>
+  <string name="category_down_swipe_gesture">Swipe down</string>
+  <string name="category_up_swipe_gesture">Swipe up</string>
+  <string name="category_left_swipe_gesture">Swipe left</string>
+  <string name="category_right_swipe_gesture">Swipe right</string>
   <string name="category_double_swipe_gesture">II gesture</string>
-  <!-- <string name="category_up_arrow_gesture">A gesture</string> -->
-  <string name="category_down_arrow_gesture">V gesture</string>
+  <string name="category_up_arrow_gesture">A gesture</string>
   <string name="category_left_arrow_gesture">&lt; gesture</string>
   <string name="category_right_arrow_gesture">&gt; gesture</string>
   <string name="category_circle_gesture">O gesture</string>
+  <string name="category_down_arrow_gesture">V gesture</string>
   <string name="category_m_gesture">M gesture</string>
   <string name="category_s_gesture">S gesture</string>
   <string name="category_w_gesture">W gesture</string>
@@ -54,21 +59,20 @@
   <string name="music_play_entry">Play/Pause music</string>
   <string name="music_prev_entry">Prev track</string>
   <string name="music_next_entry">Next track</string>
-  <string name="choose_app">Choose app</string>
+  <string name="choose_app">Choose app/action</string>
   <string name="not_ready_summary">Resolving...</string>
   <string name="resolve_failed_summary">Resolving app failed</string>
 
   <!-- Vibrator options -->
-  <!-- removed "_head" to make it compatible with res/devicesettings for now! -->
   <string name="category_vibrator">Vibrator</string>
   <string name="vib_test">Test</string>
   <string name="vib_strength_info">Note:\n\nPlease enable Vibration first in Settings -> Accessibility -> Vibration completely to get a haptic feedback on changing the strength.</string>
-  <string name="vib_strength_title">Systemwide Vibratorstrength</string>
+  <string name="vib_strength_title">System</string>
   <string name="vib_strength_summary">Define the generic strength of the vibrator</string>
-  <string name="vib_call_strength_title">Call Vibratorstrength</string>
-  <string name="vib_call_strength_summary">Define the strength for in-call events only</string>
-  <string name="vib_notif_strength_title">Notification Vibratorstrength</string>
-  <string name="vib_notif_strength_summary">Define the strength of the vibrator for notifications only</string>
+  <string name="vib_call_strength_title">In-Call</string>
+  <string name="vib_call_strength_summary">Define the strength for in-call events separately</string>
+  <string name="vib_notif_strength_title">Notifications</string>
+  <string name="vib_notif_strength_summary">Define the strength for inbound notifications separately</string>
 
   <!-- Alert Slider options -->
   <string name="category_slider">Alert Slider</string>
@@ -77,24 +81,24 @@
   <string name="slider_mode_title_center">Center position</string>
   <string name="slider_mode_title_bottom">Bottom position</string>
   <string name="slider_mode_alarm">Alarms only</string>
-  <string name="slider_mode_flashlight">Flashlight</string>
-  <string name="slider_mode_off">Off</string>
+  <string name="slider_mode_flashlight">Flashlight on/off</string>
+  <string name="slider_mode_off">Normal</string>
   <string name="slider_mode_priority">Priority only</string>
   <string name="slider_mode_silent">Silent</string>
   <string name="slider_mode_vibrate">Vibrate</string>
-  <string name="slider_mode_zen">Do not disturb</string>
+  <string name="slider_mode_zen">Do Not Disturb</string>
 
   <!-- Display/Graphics options -->
-  <string name="graphics_title">Graphics</string>
+  <string name="graphics_title">Display</string>
   <string name="dcd_mode_title">DC Dimming</string>
-  <string name="dcd_mode_summary">Reduce screen flickering in low brightness surroundings</string>
+  <string name="dcd_mode_summary">Reduce flickering by undervolting the display</string>
   <string name="hbm_mode_title">High brightness mode</string>
-  <string name="hbm_mode_summary">Enable maximum display brightness for bright surroundings</string>
+  <string name="hbm_mode_summary">Enable maximum brightness for bright surroundings (Impacts battery life!)</string>
 
   <!-- Display panel options -->
-  <string name="panel_category_title">Display Panel modes</string>
-  <string name="panel_category_summary">Modes for panel color correction</string>
-  <string name="panel_mode_info">Disable panel mode requires reboot.</string>
+  <string name="panel_category_title">Color modes</string>
+  <string name="panel_category_summary">Display modes for color correction</string>
+  <string name="panel_mode_info">Disabling color modes requires a reboot.</string>
   <string name="off_mode_title">Off</string>
   <string name="Night_mode_title">Night mode</string>
   <string name="Night_mode_summary"></string>
@@ -117,6 +121,6 @@
 
   <!-- QS Tiles -->
   <string name="tile_hbm_mode">High brightness mode</string>
-  <string name="tile_panel_mode">Display Panel modes</string>
+  <string name="tile_panel_mode">Color modes</string>
   <string name="tile_refresh_rate">Screen refresh rate</string>
 </resources>
