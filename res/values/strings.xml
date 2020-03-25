@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <resources>
-  <string name="app_name">DeviceParts</string>
+  <string name="app_name">OnePlusParts</string>
   <string name="device_title">Additional device settings</string>
   <string name="device_summary">Adjust manufacturer-specific device settings</string>
   <string name="advanced_settings">Advanced settings</string>
@@ -100,7 +100,7 @@
   <string name="slider_mode_priority">Priority only</string>
   <string name="slider_mode_silent">Silent</string>
   <string name="slider_mode_vibrate">Vibrate</string>
-  <string name="slider_mode_zen">DND</string>
+  <string name="slider_mode_zen">Do not Disturb (DnD)</string>
 
   <!-- Display/Graphics options -->
   <string name="graphics_title">Display</string>
