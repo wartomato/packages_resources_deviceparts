@@ -114,14 +114,14 @@
   <string name="panel_category_summary">Display modes for color correction</string>
   <string name="panel_mode_info">Disabling color modes requires a reboot.</string>
   <string name="off_mode_title">Off</string>
-  <string name="Night_mode_title">Night mode</string>
-  <string name="Night_mode_summary"></string>
+  <string name="night_mode_title">Night mode</string>
+  <string name="night_mode_summary"></string>
   <string name="srgb_mode_title">sRGB mode</string>
   <string name="srgb_mode_summary"></string>
   <string name="dci_mode_title">DCI-P3 mode</string>
   <string name="dci_mode_summary"></string>
-  <string name="Wide_mode_title">AMOLED Wide Colour Gamut</string>
-  <string name="Wide_mode_summary"></string>
+  <string name="wide_mode_title">AMOLED Wide Colour Gamut</string>
+  <string name="wide_mode_summary"></string>
   <string name="oneplus_mode_title">OnePlus mode</string>
   <string name="oneplus_mode_summary"></string>
 
