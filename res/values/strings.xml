@@ -40,8 +40,6 @@
   <!-- <string name="proxi_title_head">Proximity check</string> -->
   <string name="off_screen_gesture_feedback_title_head">Haptic feedback</string>
   <string name="off_screen_gesture_feedback_summary_head">Enable haptic feedback for gestures</string>
-  <string name="music_play_gesture_title_head">Music control</string>
-  <string name="music_play_gesture_summary_head">Draw || with two fingers to play or pause music. Draw &lt; or &gt; for previous or next track</string>
   <string name="category_down_swipe_gesture">Swipe down</string>
   <string name="category_up_swipe_gesture">Swipe up</string>
   <string name="category_left_swipe_gesture">Swipe left</string>
